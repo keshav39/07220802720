@@ -5,7 +5,7 @@ const API_BASE_URL = "http://20.244.56.144/train";
 var AUTH_TOKEN;
 
 axios.post(`${API_BASE_URL}/auth`, {
-  body: {
+  data: {
     companyName: "DMRC",
     clientID: "9a565944-e994-4421-b03c-3f9512a1c388",
     ownerName: "Keshav Garg",
